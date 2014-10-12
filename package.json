@@ -1,0 +1,39 @@
+{
+  "name": "glsl-diffuse-oren-nayar",
+  "version": "1.0.0",
+  "description": "Oren-Nayar diffuse lighting model",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "beefy example/example.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-oren-nayar.git"
+  },
+  "keywords": [
+    "oren",
+    "nayar",
+    "oren-nayar",
+    "diffuse",
+    "lighting",
+    "glsl",
+    "glslify"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-oren-nayar/issues"
+  },
+  "homepage": "https://github.com/stackgl/glsl-oren-nayar",
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "glslify": "^1.6.0",
+    "beefy": "^2.1.1"
+  },
+  "browserify": {
+    "transform": "glslify"
+  }
+}
