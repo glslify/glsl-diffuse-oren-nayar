@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/glsl-oren-nayar.git"
+    "url": "git://github.com/stackgl/glsl-diffuse-oren-nayar.git"
   },
   "keywords": [
     "oren",
@@ -25,9 +25,9 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stackgl/glsl-oren-nayar/issues"
+    "url": "https://github.com/stackgl/glsl-diffuse-oren-nayar/issues"
   },
-  "homepage": "https://github.com/stackgl/glsl-oren-nayar",
+  "homepage": "https://github.com/stackgl/glsl-diffuse-oren-nayar",
   "devDependencies": {
     "a-big-triangle": "^1.0.0",
     "glslify": "^1.6.0",
